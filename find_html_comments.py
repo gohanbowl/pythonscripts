@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
 import requests
-import re
 
-file = '/root/HTB/solid_state/gobust'
-string =re.compile("((.*\n){2})\<\!((.*\n){2})")
+
+file = '<path_to_file>'
 #string = "\<\!"
 with open(file) as f:
 	lines = f.readlines()
